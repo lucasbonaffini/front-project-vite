@@ -9,6 +9,7 @@ const Card = ({item}) => {
         </li>
     )
 }
+
 Card.propTypes = {
     item: PropTypes.shape({
       name: PropTypes.string.isRequired,
