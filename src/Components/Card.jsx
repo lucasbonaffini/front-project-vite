@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 
 const Card = ({item}) => {
     return (
@@ -9,6 +10,13 @@ const Card = ({item}) => {
         </li>
     )
 }
+Card.propTypes = {
+    item: PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      image: PropTypes.string.isRequired,
+      price: PropTypes.string.isRequired,
+    }).isRequired,
+  };
 
 export default Card
   
