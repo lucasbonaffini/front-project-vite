@@ -61,4 +61,5 @@ li {
   background: linear-gradient(to right, white, grey);
   list-style-type: none;
   width: 600px;
+  color: black;
 }

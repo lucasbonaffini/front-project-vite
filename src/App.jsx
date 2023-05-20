@@ -53,7 +53,7 @@ function App() {
       <div className='card'>
         <h1>Products</h1>
         <ul>
-          {products.map(product => <Card key={product.id} item={product}/>)}
+          <Card item={products}/>
         </ul>
       </div>
     </>
